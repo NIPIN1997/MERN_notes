@@ -1,0 +1,33 @@
+div{
+    height: 200px;
+    width:200px;
+}
+#div_1{
+    background-color:#000000;
+    color: white;
+}
+#div_2{
+    background-color: #FF0000;
+}
+#div_3{
+    background-color: #00FF00;
+}
+#div_4{
+    background-color: #0000FF;
+    color:white;
+}
+#div_5{
+    background-color: #FFFF00;
+}
+#div_6{
+    background-color: #00FFFF;
+}
+#div_7{
+    background-color: #FF00FF;
+}
+#div_8{
+    background-color: #C0C0C0;
+}
+#div_9{
+    background-color: #FFFFFF;
+}

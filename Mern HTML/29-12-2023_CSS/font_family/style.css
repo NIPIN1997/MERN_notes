@@ -1,0 +1,17 @@
+#para_1{
+    font-family:'Playfair Display','sans-seriff' ;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+#para_2{
+    font-variant: small-caps;
+    font-size: 25px;
+    color: blueviolet;
+    background-color: aquamarine;
+}
+h1{
+    font-family: 'Rubik','sans-seriff';
+    font-weight: bolder;
+
+}

@@ -1,0 +1,12 @@
+#heading_1,#div_1
+{
+    text-transform: uppercase;
+}
+#heading_2,#div_2
+{
+    text-transform: lowercase;
+}
+#heading_3,#div_3
+{
+    text-transform: capitalize;
+}

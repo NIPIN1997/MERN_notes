@@ -1,0 +1,10 @@
+#heading_1,#div_1{
+    text-decoration: underline;
+}
+#heading_2,#div_2{
+    text-decoration: overline;
+}
+#heading_3,#div_3
+{
+    text-decoration: line-through;
+}

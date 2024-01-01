@@ -1,0 +1,16 @@
+a:link{
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:visited{
+    color:orangered;
+}
+a:hover{
+    font-size: 40px;
+    color:chocolate;
+    text-decoration: underline;
+}
+a:active{
+    color:black;
+}

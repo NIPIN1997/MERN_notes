@@ -1,0 +1,40 @@
+div{
+    height:200px;
+    width:200px;
+}
+#div_1{
+    border-style: none;
+}
+#div_2
+{
+    border:5px solid black;
+}
+#div_3{
+    border: 5px dotted black;
+}
+#div_4{
+    border:5px dashed black;
+}
+#div_5{
+    border:5px double black;
+}
+#div_6{
+    border:20px groove black;
+}
+#div_7{
+    border:20px ridge black;
+}
+#div_8{
+    border:20px inset black;
+}
+#div_9{
+    border:20px outset black;
+}
+#div_10{
+    border-style: solid;
+    border-width: 15px;
+    border-top-color: green;
+    border-left-color: brown;
+    border-right-color: blue;
+    border-bottom-color: chocolate;
+}

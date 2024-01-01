@@ -1,0 +1,18 @@
+#heading_1,#div_1{
+    text-align: center;
+}
+#heading_2,#div_2
+{
+    text-align: left;
+}
+#heading_3,#div_3
+{
+    text-align: right;
+}
+
+#heading_4,#div_4{
+    text-align: justify;
+}
+div{
+    width: 50%;
+}

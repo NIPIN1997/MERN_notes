@@ -1,0 +1,50 @@
+ol.a{
+    list-style-type: decimal;
+}
+ol.b{
+    list-style: decimal-leading-zero;
+}
+ol.c{
+    list-style: lower-alpha;
+}
+ol.d{
+    list-style: upper-alpha;
+}
+ol.e{
+    list-style: lower-roman;
+}
+ol.f{
+    list-style: upper-roman;
+}
+ol.g{
+    list-style: lower-latin;
+}
+ol.h{
+    list-style: upper-latin;
+}
+ol.i{
+    list-style: lower-greek;
+}
+ul.b{
+    list-style: circle;
+}
+ul.c{
+    list-style: square;
+}
+.image{
+    list-style-type: none;
+    padding: 0;
+}
+.image li{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.image li::before{
+    content: "";
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background: url("https://picsum.photos/id/23/367/267") no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}

@@ -1,0 +1,47 @@
+table,tr,th,td{
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.last{
+    text-align: center;
+}
+#end{
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    background-color: white;
+}
+table{
+    width:1450px;
+}
+th,td{
+    padding: 50px;
+    height:100px
+}
+td{
+    vertical-align: bottom;
+}
+#side{
+    vertical-align: middle;
+}
+tr{
+    background-color: burlywood;
+    font-size: 30px;
+}
+tr:hover td{
+    background-color: brown;
+    color: aliceblue;
+    cursor: crosshair;
+}
+tr:hover th{
+    background-color:darkblue;
+    color: white;
+    cursor: wait;
+}
+tr:hover #side{
+    background-color: chartreuse;
+    color:black;
+}
+tr:hover .last{
+    background-color: deepskyblue;
+    color: black;
+}

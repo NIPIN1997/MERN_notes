@@ -1,0 +1,103 @@
+#nav{
+    height: 75px;
+    width:1450px;
+    background-color: rgb(33, 26, 26);
+    position:fixed;
+}
+#logo{
+    color:orangered;
+    font-family: 'Diphylleia',sans-serif;
+    font-size: 25px;
+}
+#image{
+    position:relative;
+    left:50px;
+}
+#nav_1{
+    position:relative;
+    left:300px;
+    bottom:20px;
+    font-size: 20px;
+    color:white;
+    word-spacing: 50px;
+}
+#magnify{
+    position: relative;
+    left:1200px;
+    bottom:40px;
+}
+#bag{
+    position: relative;
+    left:1300px;
+    bottom:60px;
+    height:30px;
+}
+#div_1{
+    font-size: 50px;
+    position:relative;
+    top:150px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#div_2_1{
+    position: relative;
+    top:200px;
+    left:50px;
+    width:300px;
+    height:400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#image_1{
+    position: relative;
+    left:50px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.text_1{
+    color: red;
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+.text_2{
+    font-size: 20px;
+    text-align:center;
+    position: relative;
+    top: 20px;
+}
+.text_3{
+    text-align: center;
+    position:relative;
+    top:20px;
+    color: gray;
+}
+#div_2_2{
+    position: relative;
+    bottom: 200px;
+    left:400px;
+    width:300px;
+    height:400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#div_2_3{
+    position: relative;
+    bottom: 600px;
+    left:750px;
+    width:300px;
+    height:400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#div_2_4{
+    position: relative;
+    bottom: 1000px;
+    left:1100px;
+    width:300px;
+    height:400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#div_3{
+    font-size: 50px;
+    position:relative;
+    bottom: 800px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}

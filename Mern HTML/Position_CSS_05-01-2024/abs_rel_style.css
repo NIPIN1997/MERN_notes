@@ -1,0 +1,33 @@
+#parent{
+    height:500px;
+    width:500px;
+    position:relative;
+    background-color: coral;
+}
+#div_1,#div_2,#div_3,#div_4{
+    height:100px;
+    width:100px;
+}
+#div_1{
+    background-color: blue;
+    position:relative;
+    top:10px;
+    left:10px;
+}
+#div_2{
+    background-color: chartreuse;
+    position:relative;
+    bottom:20px;
+    left:90px;
+}
+#div_3{
+    background-color: darkmagenta;
+    position:relative;
+    bottom:40px;
+    left:180px;
+}
+#div_4{
+    background-color: indigo;
+    position:absolute;
+    bottom: 0px;
+}

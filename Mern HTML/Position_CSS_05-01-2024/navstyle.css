@@ -1,0 +1,19 @@
+#parent{
+    height:2500px;
+    width:1250px;
+    background-color: chocolate;
+}
+#nav{
+    position:fixed;
+    top:10px;
+    background-color: cornsilk;
+    width:1250px;
+    height:100px;
+}
+#content{
+    font-size: 30px;
+    word-spacing: 50px;
+    position:relative;
+    left:700px;
+    bottom:75px;
+}

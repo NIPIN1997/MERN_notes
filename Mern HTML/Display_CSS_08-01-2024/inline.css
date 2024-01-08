@@ -1,0 +1,17 @@
+.division{
+    height:100px;
+    width:100px;
+    display:inline;
+}
+#div_1{
+    background-color: blue;
+}
+#div_2{
+    background-color: chocolate;
+}
+#div_3{
+    background-color: darkgoldenrod;
+}
+#div_4{
+    background-color: crimson;
+}

@@ -62,3 +62,39 @@
 #parent_17{
     flex-direction: column-reverse;
 }
+#parent_18{
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+#parent_19{
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.c19{
+    width:100px;
+    background-color: chartreuse;
+    font-size: 30px;
+    margin-right:10px;
+    display: flex;
+    align-items: center;
+}
+#parent_20{
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.c20{
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 30px;
+    margin-right:10px;
+    width:100px;
+}
+#parent_21{
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-evenly;
+}
+#parent_22{
+    gap:50px 200px;
+    flex-wrap: wrap;
+    height: auto;
+}

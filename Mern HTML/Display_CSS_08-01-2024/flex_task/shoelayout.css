@@ -1,0 +1,41 @@
+#parent_1{
+    display:flex;
+    justify-content: flex-start;
+    gap:0px 15px;
+    
+}
+#child1_1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+#child1_2{
+    font-size: 15px;
+    color: grey;
+    position: relative;
+    top:30px;
+}
+#parent_2{
+    margin-top: 50px;
+    display:flex;
+    justify-content: flex-end;
+    gap:0px 300px;
+}
+#child21{
+    display:flex;
+    gap:0px 30px;
+}
+.child22_1{
+    font-size: 30px;
+    color:gray;
+    justify-content:flex-end;
+}
+
+#parent_3{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    gap:10px 30px;
+    margin-top:50px;
+    margin-left:450px;
+}

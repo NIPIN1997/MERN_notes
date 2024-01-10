@@ -1,0 +1,76 @@
+body{
+    font-family: "Poppins";
+}
+#parent_1{
+    display: flex;
+    justify-content: space-between;
+}
+#child_1{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+}
+.child1{
+    position: relative;
+    top:30px;
+}
+.child1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(95,99,104);
+}
+#child_2{
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:25px;
+    color: grey;
+}
+.child2{
+    width:50px;
+}
+#button_1{
+    background-color: orangered;
+    border: 1px solid orangered;
+    height: 40px;
+    width:40px;
+    color:white;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.button_2{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    height:40px;
+}
+#child_2 i{
+    font-size: 20px;
+    color: grey;
+}
+#parent_2{
+    display: flex;
+    justify-content: flex-start;
+    gap:20px;
+    position: relative;
+    left:150px;
+    top:20px;
+}
+#parent_2 button{
+    background-color:white;
+    border:1px solid rgb(179, 177, 177);
+    font-size: 15px;
+    border-radius: 30%;
+    width:125px;
+    height:30px;
+    color: grey;
+}
+#parent_2 a{
+    color: grey;
+    text-decoration: none;
+}
+#parent_3{
+    position: relative;
+    left:150px;
+    top:50px;
+}

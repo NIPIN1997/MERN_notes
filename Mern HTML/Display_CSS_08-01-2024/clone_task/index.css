@@ -7,7 +7,7 @@ body{
 }
 #child_1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width:50%;
 }
 .child1{
@@ -21,7 +21,7 @@ body{
 }
 #child_2{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
     top:25px;
     color: grey;
@@ -73,4 +73,28 @@ body{
     position: relative;
     left:150px;
     top:50px;
+}
+#parent_4{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:100px;
+    right:50px;
+    
+}
+.child4{
+    height: 300px;
+    width:200px;
+}
+.child5{
+    display: flex;
+    justify-content: flex-start;
+}
+.child7{
+    position:relative;
+    left:10px;
+}
+#logo{
+    position: relative;
+    bottom:10px;
 }

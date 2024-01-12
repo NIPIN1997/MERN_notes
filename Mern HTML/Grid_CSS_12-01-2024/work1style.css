@@ -1,0 +1,48 @@
+.item1{
+    background-color: orange;
+    grid-area: header;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.item2{
+    background-color: orange;
+    grid-area: nav;
+    height:400px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.item3{
+    background-color: orange;
+    grid-area: body;
+    height:400px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.item4{
+    background-color: orange;
+    grid-area: aside;
+    height:400px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.item5{
+    background-color: orange;
+    grid-area: footer;
+    height:50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#parent{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header header"
+    "nav body body body aside aside"
+    "footer footer footer footer footer footer";
+    gap:10px;
+}

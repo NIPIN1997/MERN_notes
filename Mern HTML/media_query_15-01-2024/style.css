@@ -1,0 +1,43 @@
+#parent{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    background-color: brown;
+    min-height: 500px;
+    min-width: 500px;
+    gap:10px 50px;
+}
+.child{
+    height: 100px;
+    background-color: blueviolet;
+    width: 100px;
+    border:1px solid black;
+    text-align: center;
+    font-size: 50px;
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    #parent{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: aquamarine;
+    }
+    .child{
+        background-color: chocolate;
+    }
+}
+@media screen and (min-width:301px) and (max-width:600px){
+    #parent{
+        grid-template-columns: 1fr 1fr;
+        background-color: deepskyblue;
+    }
+    .child{
+        background-color: chartreuse;
+    }
+}
+@media screen and (max-width:300px){
+    #parent{
+        grid-template-columns: 1fr;
+        background-color: crimson;
+    }
+    .child{
+        background-color:gold;
+    }
+}

@@ -1,0 +1,87 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#main1{
+    height: 750px;
+}
+#logo{
+    position: relative;
+    bottom:20px;
+    left:50px;
+}
+#signin{
+    position: relative;
+    top:25px;
+}
+#signinbutton{
+    position: relative;
+    right:20px;
+}
+#parent2{
+    position: relative;
+    top:150px;
+}
+.gap{
+    min-height:10px
+}
+#enjoy{
+    position: relative;
+    top:125px;
+    left:150px;
+}
+#enjoy2{
+    position: relative;
+    top:125px;
+    left:150px;
+    font-size: 20px;
+}
+#mobile1{
+    position: relative;
+    top:100px;
+}
+#main2{
+    height: 500px;
+}
+#main3{
+    height: 500px;
+}
+#main4{
+    height: 500px;
+}
+#mobile2{
+    position: relative;
+    top:100px;
+    font-size: 20px; 
+}
+#lap1{
+    position: relative;
+    top:125px;
+}
+#lap2{
+    position: relative;
+    top:125px;
+    font-size: 20px; 
+}
+#kid1{
+    position: relative;
+    top:125px;
+    right:100px;
+}
+#kid2{
+    position: relative;
+    top:125px;
+    right:100px;
+    font-size: 20px; 
+}
+#faq{
+    font-size: 50px;
+}
+#main5{
+    height:900px;
+}
+#parent3 a{
+    color: white;
+}
+#parent3{
+    height:350px;
+}

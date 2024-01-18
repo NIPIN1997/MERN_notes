@@ -1,6 +1,7 @@
 body{
     background-color: black;
     font-family: 'Poppins', sans-serif;
+    width:90%;
 }
 #parent1{
     display: flex;
@@ -16,23 +17,25 @@ body{
 .child1 input{
     background-color: black;
     border: 1px solid grey;
-    height: 25px;
+    height: 35px;
     position: relative;
-    top: 15px;
+    top: 5px;
     width: 500px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
     color:rgb(170, 167, 167);
+    font-size: 20px;
 }
 .child1 button{
-    background-color: rgb(65, 65, 65);
-    height: 30px;
+    background-color: rgb(39, 38, 38);
+    height: 40px;
     position: relative;
-    top: 15px;
+    top: 5px;
     right:20px;
-    width:75px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    width:60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
 }
 #signin{
     border-radius:20px;
@@ -40,7 +43,8 @@ body{
     border: 1px solid grey;
     width:100px;
     margin-left: 10px;
-    height:40px;
+    height:35px;
+    font-size: 15px;
 }
 @media screen and (max-width:1100px){
     #search_bar{
@@ -51,14 +55,18 @@ body{
     display: grid;
     grid-template-columns: 2fr 8fr;
     position: relative;
-    top:100px;
+    top:60px;
+    left:10px;
 }
 #parent21 a{
     text-decoration: none;
 }
 .links:hover{
     background-color: grey;
-    border-radius: 20px;
+    border-radius: 5px;
+}
+.links{
+    padding-left: 5px;
 }
 #parent21{
     display: flex;
@@ -90,17 +98,18 @@ body{
     font-size: 15px;
 }
 .videodescription img{
-    height: 50px;
+    height: 30px;
 }
 .videodemo img{
-    height: 200px;
+    height: 180px;
     width: 275px;
 } 
 .videodescription .d1{
     height: 100px;
     width:225px;
+    margin-left: 5px;
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px) and (min-width:901px){
     #parent22{
         grid-template-columns: repeat(3,1fr);
         gap:10px 20px;
@@ -112,7 +121,7 @@ body{
     }
     #parent22{
         grid-template-columns: repeat(2,1fr);
-        gap:100px;
+        gap:100px 75px;
         position: static;
     }
     .video a{
@@ -121,14 +130,67 @@ body{
     .video{
         margin-bottom: 20px;
     }
+    .videodemo img{
+        height: 225px;
+        width: 400px;
+    }
+    .videodescription .d1{
+        height: 100px;
+        width:350px;
+        margin-left: 5px;
+    }
+    .videodescription img{
+        height: 60px;
+    }
 }
 #parent0{
     position: fixed;
     width:100%;
     z-index: 10;
     background-color: black;
-    height:100px;
+    height:50px;
 }
 .video{
     margin-top: 10px;
+}
+#icon{
+    position: relative;
+    top:8px;
+    left:20px;
+}
+#mike{
+    margin-left: 5px;
+    border-radius: 20px;
+    width:40px;
+    height:40px;
+}
+#signin{
+    position: relative;
+    right:30px;
+    top: 5px;
+}
+@media screen and (max-width:500px){
+    #parent22{
+        grid-template-columns: 1fr;
+        gap:100px 75px;
+        position: static;
+    }
+    .video a{
+        font-size: 25px;
+    }
+    .video{
+        margin-bottom: 20px;
+    }
+    .videodemo img{
+        height: 300px;
+        width: 450px;
+    }
+    .videodescription .d1{
+        height: 100px;
+        width:400px;
+        margin-left: 5px;
+    }
+    .videodescription img{
+        height: 60px;
+    }
 }

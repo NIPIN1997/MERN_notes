@@ -1,0 +1,27 @@
+let a=10;
+console.log('a = ',a);
+a+=5;
+console.log('a += 5 : ',a);
+let b=10;
+console.log('b =',b);
+b-=2;
+console.log('b -= 2 : ',b);
+let c=4;
+console.log('c = ',c);
+c*=2;
+console.log('c *= 2 : ',c);
+let d=9;
+console.log('d = ',d);
+d/=3;
+console.log('d /= 3 : ',d);
+let e=10;
+console.log('e = ',e);
+e%=7;
+console.log('e %= 7 : ',e);
+
+let i=true;
+let j=false;
+console.log('true && false : ',(i&&j));
+console.log('true || false : ',(i||j));
+console.log('!(true && false) : ',!(a&&b));
+console.log('!(true || false) : ',!(a||b));

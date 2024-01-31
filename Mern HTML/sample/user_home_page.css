@@ -1,0 +1,315 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+#mainBody_header{
+    background-color: darkorchid;
+    color:white;
+    text-align: center;
+    height:75px;
+    padding-top: 10px;
+    position: fixed;
+    top:0px;
+    z-index: 10;
+}
+#mainBody_heading{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    height:75px;
+    border-bottom-style: solid;
+    border-bottom-color: darkorchid;
+    position: fixed;
+    top:75px;
+    z-index: 10;
+}
+#navbar1 button{
+    background-color:darkorchid;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#navbar1 button:hover{
+    background-color:white;
+    color: darkorchid;
+    border:1px solid darkorchid;
+}
+#navbar1{
+    margin-top: 20px;
+    display: flex;
+    gap:5px;
+}
+#navbar2{
+    margin-top: 20px;
+}
+#navbar2 input{
+    height:40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 50px;
+    border-color: rgb(197, 191, 191);
+    opacity: 50%;
+    width:500px;
+    font-size: 20px;
+}
+#navbar2 button{
+    position: relative;
+    bottom:3px;
+    background-color: darkorchid;
+    color: white;
+    height:40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#navbar3 button{
+    background-color:darkorchid;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#navbar3 button:hover{
+    background-color:white;
+    color: darkorchid;
+    border:1px solid darkorchid;
+}
+#navbar3{
+    margin-top: 20px;
+    display: flex;
+    gap:5px;
+}
+#categorymenu{
+    display: flex;
+    justify-content: space-evenly;
+    height:70px;
+    border-bottom-style: solid;
+    border-bottom-color: darkorchid;
+    position: fixed;
+    top:150px;
+    z-index: 10;
+}
+#categorymenu button{
+    color:darkorchid;
+    font-weight: normal;
+    font-size: 20px;
+    border:2px solid darkorchid;
+    margin-top: 10px;
+}
+#categorymenu button:hover{
+    background-color: darkorchid;
+    color: white;
+}
+#fashion{
+    position:relative;
+    top: 200px;
+    margin-top: 50px;
+}
+#fashion h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#watches{
+    position:relative;
+    top: 200px;
+}
+#watches h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#cards1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+.cards img{
+    border:1px solid black;
+}
+.cards{
+    width: 200px;
+    margin-bottom: 30px;
+}
+#footwear{
+    position: relative;
+    top: 200px;
+}
+#footwear h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#jewellery{
+    position: relative;
+    top: 10px;
+}
+#jewellery h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#electronics{
+    position: relative;
+    top: 200px;
+}
+#electronics h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#appliances{
+    position: relative;
+    top: 200px;
+}
+#appliances h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#furniture{
+    position: relative;
+    top: 200px;
+}
+#furniture h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#gift{
+    position: relative;
+    top: 200px;
+}
+#gift h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#party{
+    position: relative;
+    top: 200px;
+}
+#party h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#sports{
+    position: relative;
+    top: 200px;
+}
+#sports h1{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#cards2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+#cards3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+#cards4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+#cards5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+#cards6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+#cards7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+#cards8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+#cards9{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+#cards10{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+.cards a{
+    background-color: darkorchid;
+    color: white;
+}
+.cards a:hover{
+    background-color: white;
+    color: darkorchid;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+    background-color: darkorchid;
+    padding-top: 50px;
+}
+#footer a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#contact{
+    color: white;
+}

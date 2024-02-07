@@ -1,0 +1,46 @@
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#maincontainer{
+    height:500px;
+}
+#header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-top:10px;
+}
+#formfield{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: gray;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:black;
+    opacity: 85%;
+    font-weight: bold;
+    font-size: 25px;
+}
+#formfield input{
+    width: 500px;
+}
+#formfield h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#formfield button{
+    width: 100px;
+    opacity: 100%;
+    background-color: rgb(4, 4, 124);
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}

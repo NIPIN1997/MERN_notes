@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch Details</title>
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a298fb5479.js" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+    <div id="header" class="container-fluid">
+        <span id="heading">Batches</span>
+    </div>
+    <div id="maincontainer">
+        <div id="left">
+            <div
+                id="myChart" style="width:100%; max-width:600px; height:500px;">
+            </div>
+        </div>
+        <div id="right">
+            <form action="Controller" method="post">
+                <input type="hidden" name="action" value="addnewbatch">
+                <button class="btn"><i class="fa-solid fa-plus fa-xl"></i> Add Batch</button>
+            </form>
+            <form action="Controller" method="post">
+                <input type="hidden" name="action" value="viewbatch">
+                <button class="btn">View all batches</button>
+            </form>
+        </div>
+    </div>
+
+<script>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+
+// Set Data
+const data = google.visualization.arrayToDataTable([
+  ['Batch', 'Status'],
+  ['Completed',50],
+  ['Notcompleted',50]
+]);
+
+// Set Options
+const options = {
+  title:'Batch Completion Status',
+  is3D:true
+};
+
+// Draw
+const chart = new google.visualization.PieChart(document.getElementById('myChart'));
+chart.draw(data, options);
+
+}
+</script>
+</body>
+</html>

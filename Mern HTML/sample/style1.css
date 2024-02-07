@@ -1,0 +1,40 @@
+body{
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#heading{
+    opacity:100%;
+    color:white;
+}
+#options{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    gap: 100px;
+}
+#student,#admin,#faculty{
+    height:200px;
+    width:200px;
+    background-color:white;
+    text-align: center;
+    padding: auto;
+    padding-top: 50px;
+    font-size: 50px;
+}
+#options a{
+    text-decoration: none;
+    color: rgba(9, 9, 9, 0.704);
+    opacity:75%;
+}
+#options a:hover{
+    opacity: 100%;
+    color:rgb(4, 4, 124);
+}

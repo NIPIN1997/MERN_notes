@@ -1,0 +1,23 @@
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-top:10px;
+}
+#maincontainer{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#maincontainer h3{
+    color: white;
+    text-align: center;
+}

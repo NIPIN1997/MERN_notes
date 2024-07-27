@@ -1,0 +1,39 @@
+.morning{
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsNDUyNDU4MjUwODQtaW1hZ2Uta3R4cmFucGIuanBn.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.evening{
+    background-image: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    gap:50px
+}
+div{
+    margin-top: 200px;
+}
+button{
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    height:100px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    opacity: 75%;
+}
+#imagewindow{
+    border:20px solid red;
+    height:200px;
+    width:400px;
+}

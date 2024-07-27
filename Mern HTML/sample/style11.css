@@ -1,0 +1,35 @@
+body{
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#heading{
+    opacity:100%;
+    color:white;
+}
+#maincontainer{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    gap:50px;
+    margin-top: 50px;
+}
+#left{
+    width:500px;
+    height: 300px;
+    background-color: aliceblue;
+}
+#left{
+    opacity: 90%;
+}
+#left h1{
+    text-align: center;
+    margin-top: 10px;
+}

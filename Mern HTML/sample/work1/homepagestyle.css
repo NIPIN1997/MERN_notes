@@ -1,0 +1,59 @@
+#header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: darkblue;
+    color: white;
+}
+#maincontainer{
+    width: 800px;
+    height:500px;
+    border:1px solid darkblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    display: flex;
+}
+.child1{
+    width:400px;
+    height:500px;
+    border:1px solid darkblue;
+}
+#child11header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: darkblue;
+}
+#child12{
+    background-color: darkblue;
+}
+#child11body{
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    color: darkblue;
+}
+#child11body input{
+    border:1px solid darkblue;
+}
+#loginbtn{
+    background-color: darkblue;
+    color:white;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#child12header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 200px;
+    color: white;
+}
+#child12 a{
+    text-decoration: none;
+}

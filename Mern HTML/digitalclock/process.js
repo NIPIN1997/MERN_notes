@@ -1,6 +1,6 @@
-const hour=document.getElementById("hour");
-const minute=document.getElementById("minute");
-const second=document.getElementById("second");
+const hour1=document.getElementById("hour");
+const minute1=document.getElementById("minute");
+const second1=document.getElementById("second");
 const daytime=document.getElementById("daytime");
 const day1=document.getElementById("day");
 const month1=document.getElementById("month");
@@ -9,10 +9,10 @@ function main()
 {
     setInterval(()=>{
         const date=new Date();
-        hour.innerHTML=date.getHours();
+        hour1.innerHTML=date.getHours();
         const t=date.getHours();
-        minute.innerHTML=date.getMinutes();
-        second.innerHTML=date.getSeconds();
+        minute1.innerHTML=date.getMinutes();
+        second1.innerHTML=date.getSeconds();
         day1.innerHTML=date.getDate();
         month1.innerHTML=date.getMonth()+1;
         year1.innerHTML=date.getFullYear();

@@ -1,0 +1,16 @@
+#header{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: darkblue;
+    color: white;
+}
+#mainbody{
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    font-size: 50px;
+    font-style: italic;
+    color: darkblue;
+}
